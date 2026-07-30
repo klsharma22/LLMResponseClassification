@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset (see data/README.md) — never commit raw or processed data
+/data/**
+!/data/.gitkeep
+!/data/README.md
+!/data/*/
+!/data/*/.gitkeep

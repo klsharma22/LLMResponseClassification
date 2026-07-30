@@ -1,0 +1,16 @@
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[tool.ruff]
+line-length = 100
+src = ["packages"]
+
+[dependency-groups]
+dev = [
+    "kagglehub>=1.0.2",
+    "python-dotenv>=1.2.2",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
