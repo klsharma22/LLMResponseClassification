@@ -10,6 +10,8 @@ dev = [
     "kagglehub>=1.0.2",
     "python-dotenv>=1.2.2",
     "pytest>=8.0.0",
+    "pytest-cov>=7.1.0",
+    "diff-cover>=10.5.0",
 ]
 
 [tool.pytest.ini_options]
