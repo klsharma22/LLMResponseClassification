@@ -21,4 +21,8 @@ jobs:
         run: uv sync --locked
 
       - name: Run tests
-        run: uv run pytest -v
+        run: uv run pytest -v --junitxml=report.xml
+
+      - name: Write test summary
+        if: always()
+        run: uv run python .github/scripts/write_test_summary.py
