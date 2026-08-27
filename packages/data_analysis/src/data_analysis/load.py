@@ -71,7 +71,7 @@ class KaggleDatasetDownloader():
 
         print("Validation complete. Data is ready to go.")
 
-    def _write_manifest(self):
+    def _write_manifest(self):  # pragma: no cover -- TODO: unimplemented, see below
         # TODO: write a manifest recording what was downloaded, so future-you doesn't
         # have to guess. Decide on:
         #   - fields: self.spec.handle, download timestamp (datetime.now().isoformat()),
