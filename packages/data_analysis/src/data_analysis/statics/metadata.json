@@ -1,0 +1,22 @@
+{
+    "llm-response-classification-files": [
+        {
+            "file_name": "train.csv",
+            "extension": "CSV",
+            "row_count": 57478,
+            "column_count": 9
+        },
+        {
+            "file_name": "test.csv",
+            "extension": "CSV",
+            "row_count": 3,
+            "column_count": 4
+        },
+        {
+            "file_name": "sample_submission.csv",
+            "extension": "CSV",
+            "row_count": 3,
+            "column_count": 4
+        }
+    ]
+}
